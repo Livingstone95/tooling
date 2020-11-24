@@ -2,7 +2,7 @@
     include('functions.php');
     
     if (!isLoggedIn()) {
-        $_SESSION['msg'] = "You should log in first";
+        $_SESSION['msg'] = "Let log you  in first";
         header('location: login.php');
     }
 ?>
